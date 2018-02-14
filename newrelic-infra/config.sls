@@ -1,4 +1,4 @@
-config:
+newrelic-infra-config:
   file.managed:
     - name: /etc/newrelic-infra.yml
     - user: root
