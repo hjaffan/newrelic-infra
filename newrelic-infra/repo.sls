@@ -13,5 +13,3 @@ newrelic-infra-repo:
     - gpgcheck: 1
     - key_url: https://download.newrelic.com/infrastructure_agent/gpg/newrelic-infra.gpg
   {% endif %}
-    - require_in:
-        - pkg: newrelic-sysmond
