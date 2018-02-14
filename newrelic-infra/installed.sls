@@ -1,4 +1,3 @@
-install-agent:
+newrelic-infra-package:
   pkg.installed:
     - name: newrelic-infra
-    - version: 1.0.790
