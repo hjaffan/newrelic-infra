@@ -3,16 +3,11 @@ newrelic-infra
 
 SaltStack formula for installing and configuring NewRelic Infrastructure.
 
-.. note::
-
-    See the full `Salt Formulas installation and usage instructions
-    <http://docs.saltstack.com/topics/development/conventions/formulas.html>`_.
+See the full
+[Salt Formulas installation and usage instructions](http://docs.saltstack.com/topics/development/conventions/formulas.html).
 
 Available states
 ================
-
-.. contents::
-    :local:
 
 ``newrelic-infra``
 ------------------
