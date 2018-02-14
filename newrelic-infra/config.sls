@@ -4,7 +4,7 @@ newrelic-infra-config:
     - user: root
     - group: root
     - template: jinja
-    - contents: | 
+    - contents: |
         {% for key, value in salt['pillar.get']("newrelic:config:base").items() %}{{ key }}: {{ value }}
         {% endfor %}
         {% if salt['pillar.get']("newrelic:config:custom_attributes") %}
@@ -12,4 +12,5 @@ newrelic-infra-config:
         {% for key, value in salt['pillar.get']("newrelic:config:custom_attributes").items() %}  {{ key }}: {{ value }}
         {% endfor %}
         {% endif %}
-
+    - require_in:
+      - pkg: newrelic-infra-package

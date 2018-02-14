@@ -5,4 +5,4 @@ newrelic-infra-service:
     - reload: True
     - watch:
       - file: newrelic-infra-config
-      - pkg: newrelic-infra
+      - pkg: newrelic-infra-package

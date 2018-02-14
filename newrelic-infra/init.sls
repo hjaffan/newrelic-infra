@@ -1,5 +1,5 @@
 include:
   - .repo
-  - .installed
   - .config
+  - .installed
   - .service
