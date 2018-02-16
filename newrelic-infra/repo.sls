@@ -1,3 +1,7 @@
+# Ensure the New Relic Infrastructure repository is present. 
+
+# This file is intended to be included by init.
+
 newrelic-infra-repo:
   {% if grains['os_family'] == 'RedHat' -%}
   pkgrepo.managed:

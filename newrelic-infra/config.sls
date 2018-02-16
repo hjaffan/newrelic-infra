@@ -1,3 +1,8 @@
+# Ensure the New Relic Infrastructure configuration is present.
+# You will need, at minimum, the license key.
+
+# This file is intended to be included by init.
+
 newrelic-infra-config:
   file.managed:
     - name: /etc/newrelic-infra.yml

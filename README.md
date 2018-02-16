@@ -3,8 +3,10 @@ newrelic-infra
 
 SaltStack formula for installing and configuring NewRelic Infrastructure.
 
-See the full
-[Salt Formulas installation and usage instructions](http://docs.saltstack.com/topics/development/conventions/formulas.html).
+.. note::
+
+    See the full `Salt Formulas installation and usage instructions
+    <http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html>`_.
 
 Supported Operating Systems
 ===========================
@@ -16,6 +18,9 @@ Supported Operating Systems
 
 Available states
 ================
+
+.. contents::
+    :local:
 
 ``newrelic-infra``
 ------------------
