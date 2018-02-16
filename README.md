@@ -1,10 +1,18 @@
 newrelic-infra 
-==========================================================================
+==============
 
 SaltStack formula for installing and configuring NewRelic Infrastructure.
 
 See the full
 [Salt Formulas installation and usage instructions](http://docs.saltstack.com/topics/development/conventions/formulas.html).
+
+Supported Operating Systems
+===========================
+
+* rpm-based distros
+* deb-based distros
+* Use [salt-winrepo](https://github.com/saltstack/salt-winrepo-ng/blob/master/newrelic-infra.sls)
+  for Windows.
 
 Available states
 ================
