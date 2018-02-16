@@ -6,5 +6,3 @@ newrelic-infra-service:
     - watch:
       - file: newrelic-infra-config
       - pkg: newrelic-infra-package
-    - require:
-      - pkg: newrelic-infra-package
