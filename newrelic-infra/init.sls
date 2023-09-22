@@ -1,4 +1,9 @@
+# Ensure that New Relic Infrastructure is installed from the correct repo,
+# configured, and running.
+
+
 include:
-  - newrelic-infra.config
-  - newrelic-infra.install
-  - newrelic-infra.service
+  - .repo
+  - .config
+  - .installed
+  - .service
